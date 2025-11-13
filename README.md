@@ -1,3 +1,13 @@
+# NRC-ILT fork: ilt-editdistance
+
+This fork of editdistance aims to support the needs of the National Research Council Canada's Indigenous Language Technologies (NRC ILT) projects, applying minimal patches to `editdistance` for our projects to work on all OSes and Python versions we support.
+
+Our fork can be installed via `pip install ilt-editdistance` but it is a drop-in replacement the regular `editdistance` package.
+
+You should continue to cite and give credit to the original author if you use our fork.
+
+The only change we plan to make is to keep publishing new patch increments with pre-built wheels as new versions of Python are published.
+
 # editdistance
 
 Fast implementation of the edit distance (Levenshtein distance).
