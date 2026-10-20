@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "ilt-editdistance"
-version = "0.8.2"
+version = "0.8.3"
 description = "Fast implementation of the edit distance (Levenshtein distance)"
 authors = [
     {name = "Hiroyuki Tanaka", email = "aflc0x@gmail.com"},
@@ -14,13 +14,11 @@ maintainers = [
     {name = "Eric Joanis", email = "Eric.Joanis@nrc-cnrc.gc.ca"},
 ]
 dependencies = []
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
 [project.urls]
-Homepage = "https://github.com/nrc-ilt/editdistance"
-Documentation = "https://github.com/nrc-ilt/editdistance"
 Repository = "https://github.com/nrc-ilt/editdistance"
 
 [tool.pdm]
