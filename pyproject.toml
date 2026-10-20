@@ -16,7 +16,7 @@ maintainers = [
 dependencies = []
 requires-python = ">=3.9"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 
 [project.urls]
 Repository = "https://github.com/nrc-ilt/editdistance"
